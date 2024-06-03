@@ -74,6 +74,12 @@ p{
     justify-content: space-between;
 }
 
+.thumbnail-info li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .thumbnail-info img{
     border-radius: 8px;
 }
@@ -81,4 +87,5 @@ p{
 .thumbnail-info li img{
     border: 2px solid #3882F6;
     border-radius: 8px;
+    object-fit: contain;
 }
