@@ -15,10 +15,16 @@ ul{
     gap: 24px;
 }
 
-.aside{
+.aside, .aside-img{
     display: flex;
     flex-direction: column;
     flex: 1;
+}
+
+.aside-img{
+    display: flex;
+    flex: 1;
+    max-width: 350px;
 }
 
 .bottom-head{
@@ -38,4 +44,8 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
+}
+
+.thumbnail-info img{
+    border-radius: 25px;
 }
