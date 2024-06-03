@@ -9,6 +9,7 @@
     justify-content: space-between;
     color: white;
     background-color: #1F2937;
+    padding: 8px 150px 50px;
 }
 
 ul{
@@ -21,19 +22,15 @@ ul{
     display: flex;
     flex-direction: column;
     flex: 1;
+    max-width: 600px;
 }
 
-.aside-img{
-    display: flex;
-    flex: 1;
-    width: 350px;
-}
 
 .bottom-head{
     display:flex;
     justify-content: space-between;
     background-color: #1F2937;
-
+    padding: 8px 150px 100px;
 }
 
 a{
@@ -62,10 +59,8 @@ p{
 }
 
 .content{
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
-    background-color: whitesmoke;
 }
 
 .thumbnails{
@@ -77,12 +72,13 @@ p{
     flex:1;
     width:100px;
     justify-content: space-between;
-    border: 2px solid #3882F6;
-    border-radius: 8px;
-
-
 }
 
 .thumbnail-info img{
-    border-radius: 25px;
+    border-radius: 8px;
+}
+
+.thumbnail-info li img{
+    border: 2px solid #3882F6;
+    border-radius: 8px;
 }
